@@ -1,0 +1,24 @@
+console.log()-->printing something.
+alert --> to display an alert.
+confirm() --> to make user choose ok or cancel.result will be stored in boolean.
+prompt() --> to take input from user.
+there are five different premitive data type in  javaScript --> 
+    1.number.
+    2.string. -- > ' ' / " " / ` ` / -- for adding any value${ }
+    3.boolean.
+    4.undefined.//null and undefined, both represents an absence of value but undefined except the value in future.
+    5.null     // var x = null
+                // var y = undefined
+                
+there are three different non-premitive data type in javaScript--> 
+    1.array.
+    2.functions.
+    3.object.
+
+dynamic datatype : we can change data types by changing the values.
+type casting : javaScript also convert one datatype to another data type autometicaly "" Data type is changable autometicaly"".
+Any error in javaScript will make the program execution halt.
+JavaScript synchronous(line by line),single threaded language(one task at a time).
+
+Funtion : -->
+    

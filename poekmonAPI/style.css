@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(aliceblue,tomato);
+}
+.pokemon{
+    display: flex;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20%;
+}
+input,button{
+    width: 50px;
+    height: 50px;
+    padding: 10%;
+    border-radius: 20px;
+    font-size: 2px;
+}

@@ -1,0 +1,53 @@
+Dom : Document object Model
+    Every Thing we write in html and css is store as a model in document object.
+    Document Object store html css in tree structure that is DOM tree.
+
+    1.Selection :
+        How to select elements from DOM?
+        getElementsByClassName(): select all element of similer class name
+        getElementsByTagName(): select all element of similer tag name
+            -- this two makes htmlcollection array
+        getElementById():an element based on id.
+        querySelector('query'): select the first element satisfies the query
+        querySelectorAll('query'):select all the element satisfies the query
+
+    2.Manipulation : 
+        How to change value of Dom?
+        textContent : it is used to grab the text inside the element.
+        innerText: it is also used to grab the text inside the element, but it also check 
+            the css. in ex : in visibility is hidden, element can't read by innerText.
+
+        --- innerText,textContent only take text on string format
+        innerHTML : rare condition it is use. it is read and update the code
+
+    value : value is to get the value in input boxes.
+    -- add/remove/toggle the class : classList.toggle/add/remove('className')
+
+    Modal box.
+    3. Creation : 
+    How to create an element?
+    document.createElement(element)
+
+    How to attach?
+    element.append()/appendChild()
+
+event propagation : event will get trigger by default from innermost to outermost, this propagation is called bubing.
+
+eventDeligation is a desgine pattern which makes logic works for parent instead of individual child item.
+
+Timer : 
+    setTimeout and setInterval
+
+    setTimeout(function(){
+        console.log("hi")
+    },2000)
+
+    setInterval(function(){
+        console.log("hi")
+    },2000)
+
+async logic : 
+    JS is a sychronous and single threaded language.Js will naver wait for any function so all aychronous function will be pushed into task queue and event loop will monitor the call stack and when call stack is empty, event loop passes async. 
+
+    fatch : it is not in js it is an API.
+    API(Application Programming Interface)
